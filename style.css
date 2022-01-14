@@ -74,9 +74,23 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.89);
     color: white;
+    box-shadow: inset 7px 7px 13px 0px rgba(0, 0, 0, 0.507);
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 255, 0.404);
+    background-color: rgba(0, 0, 0, 0.473);
     display: inline-block;
+    padding: 5px;
+    /* Deslocamento lateral, vertical, espalhamento e cor */
+    text-shadow: 1px 1px 0px black; 
+}
+
+section#img01 {
+    background: black url("../Projeto-Cordel/imagens/background001.jpg") right center no-repeat fixed;
+    background-size: cover;
+}
+
+section#img02 {
+    background: black url("../Projeto-Cordel/imagens/background002.jpg") right center no-repeat fixed;
+    background-size: cover;
 }
